@@ -1,10 +1,14 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
 
-   return <h1>How are you?</h1>;
+   return <div>
+    <Navbar />
+
+   </div>;
 }
 
 export default App;
