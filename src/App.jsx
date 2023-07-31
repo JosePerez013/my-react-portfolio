@@ -1,12 +1,16 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import React, { useState } from "react";
+
 import Navbar from "./components/navbar/Navbar";
+import Home from "./components/casa/Home";
+import Socials from "./components/Socials/Socials";
 
 function App() {
 
    return <div>
     <Navbar /> 
+    <Home />
+    
+    <Socials />
    </div>;
 }
 
