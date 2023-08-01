@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
 import Navbar from "./components/navbar/Navbar";
-import Home from "./components/casa/Home";
-import Socials from "./components/Socials/Socials";
+import Home from "./components/home/Home";
+import Socials from "./components/socials/Socials";
 import About from "./components/about/About";
-import Projects from "./components/Work/Projects";
+import Projects from "./components/work/Projects";
 import Proficiencies from "./components/proficiencies/Proficiencies";
 import Contact from "./components/contact/Contact";
 
