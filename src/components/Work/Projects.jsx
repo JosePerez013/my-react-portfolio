@@ -1,5 +1,6 @@
-import ballDontLie from "./projectImgs/BDL.jpg";
-import FitNFresh from "./projectImgs/FitNFresh.jpg";
+
+import ballDontLie from "../../assets/projectImgs/BDL.jpg";
+import FitNFresh from "../../assets/projectImgs/FitNFresh.jpg";
 
 const Projects = () => {
 
