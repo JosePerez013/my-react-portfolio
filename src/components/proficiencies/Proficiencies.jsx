@@ -5,7 +5,7 @@ import graphql from "../../assets/graphql.png";
 import react from "../../assets/react.png";
 import node from "../../assets/node.png";
 import mongo from "../../assets/mongo.png";
-import mysql from "../../assets/mysql.png";
+import mysql from "../../assets/my_sql.png";
 import bootstrap from "../../assets/bootstrap.png";
 import tailwind from "../../assets/tailwind.png";
 
