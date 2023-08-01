@@ -5,6 +5,8 @@ import Home from "./components/casa/Home";
 import Socials from "./components/Socials/Socials";
 import About from "./components/about/About";
 import Projects from "./components/Work/Projects";
+import Proficiencies from "./components/proficiencies/Proficiencies";
+import Contact from "./components/contact/Contact";
 
 function App() {
 
@@ -13,7 +15,8 @@ function App() {
     <Home />
     <About />
     <Projects />
-
+    <Proficiencies />
+    <Contact />
     <Socials />
    </div>;
 }
