@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/Hi";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Socials = () => {
@@ -12,7 +11,7 @@ const Socials = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com",
+      href: "https://www.linkedin.com/in/jose-perez-472444286/",
       style: "rounded-tr-md",
     },
     {
@@ -28,10 +27,10 @@ const Socials = () => {
       id: 3,
       child: (
         <>
-          Mail <HiOutlineMail size={30} />
+          Instagram <FaInstagram size={30} />
         </>
       ),
-      href: "mailto:josep12773@gmail.com",
+      href: "https://www.instagram.com/_jose.404/",
     },
     {
       id: 4,
@@ -42,14 +41,13 @@ const Socials = () => {
       ),
       href: "/Resume.pdf",
       style: "rounded-br-md",
-      download: true,
     },
   ];
 
   return (
-    <div className="flex flex-col top-[35%] left-0 fixed ">
+    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed ">
       <ul>
-        {links.map(({ id, child, href, style, download }) => (
+        {links.map(({ id, child, href, style }) => (
           <li
             key={id}
             className={
@@ -61,7 +59,6 @@ const Socials = () => {
             <a
               href={href}
               className="flex justify-between items-center w-full text-white"
-              download={download}
               target="_blank"
               rel="noreferrer"
             >
