@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+
 import HeroImage from "../../assets/heroImage.png";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
