@@ -16,10 +16,7 @@ const Home = () => {
               Hello!!
             </h2>
             <p className="text-gray-400 py-4 max-w-md">
-              I enjoy creating things that live on the internet, whether that be
-              websites, applications, or anything in between. My goal is to
-              always build products that provide pixel-perfect, performant
-              experiences.
+              My name is Jose Perez and I am a full stack web developer.
             </p>
 
             <div>
