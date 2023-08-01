@@ -1,5 +1,3 @@
-
-
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
 import Socials from "./components/contacts/Socials";
@@ -9,16 +7,17 @@ import Proficiencies from "./components/proficiencies/Proficiencies";
 import Contact from "./components/contact/Contact";
 
 function App() {
-
-   return <div>
-    <Navbar /> 
-    <Home />
-    <About />
-    <Projects />
-    <Proficiencies />
-    <Contact />   
-    <Socials />
-   </div>;
+  return (
+    <div>
+      <Navbar />
+      <Home />
+      <About />
+      <Projects />
+      <Proficiencies />
+      <Contact />
+      <Socials />
+    </div>
+  );
 }
 
 export default App;
